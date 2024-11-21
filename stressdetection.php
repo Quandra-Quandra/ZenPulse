@@ -1,6 +1,6 @@
 <?php
 include_once 'header.php';
-include_once 'includes/dbh.inc.php'; // Include your database connection file
+include_once 'includes/dbh.inc.php'; 
 
 // Initialize variables for form inputs and results
 $heartRate = $sleepHours = $activityLevel = "";
@@ -22,7 +22,7 @@ if (isset($_POST['submit'])) {
     ]);
 
     // Send data to Flask backend using cURL
-    $ch = curl_init('http://localhost:5000/predict_single');  // Flask backend URL
+    $ch = curl_init('http://localhost:5000/predict_single');  
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
     curl_setopt($ch, CURLOPT_POST, true);

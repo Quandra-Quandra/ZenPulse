@@ -9,7 +9,7 @@ for auto formatting and python
 
 5. After launch, go to manage servers and start MySQL database and apache web server
 
-6. You can minimize that window and go to the XAMPP folder, then xamppfiles and go to the htdocs folder. Delete the contents in there and drag the ZenPulse folder in there
+6. You can minimize that window and go to the XAMPP folder, then xamppfiles and go to the htdocs folder. Delete the contents in there and drag the ZenPulse folder in there. Make sure the venv folder (from canvas) is inside the ZenPulse folder
 
 7. Go back to visial studios and on the left, click explorer and then click open. Select the ZenPulse folder
 
